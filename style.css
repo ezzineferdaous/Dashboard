@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
+}
+body{
+    background: #dfe9df;
+}
+ .container {
+    display: flex;
+    margin-left: 0;
+
+ }
+
+ nav{
+    position:relative;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    left: 0;
+    background: #fff;
+    width: 380px;
+    overflow: hidden;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+    
+
+
+ }
+
+ .logo{
+    text-align: center;
+    display: flex;
+    margin: 10px 0 0 10px;
+ }
+
+ .logo img{
+    width: 50px;
+    height: 50px;
+    border-radius:50% ;
+
+ }
+
+  .logo span{
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+
+  }
+
+  a{
+    position: relative;
+    color: rgb(85, 85, 83);
+    font-size: 14px;
+    display: table;
+    width: 280px;
+    padding: 10px;
+   
+
+  }
+  nav ul li {
+    list-style: none;
+    margin-top: 52px;
+  }
+  
+
+  nav .fas{
+    position: relative;
+    width: 70px;
+    height:40px ;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+ 
+
+  }
+
+  .nav-item{
+    position: relative;
+    margin-left: 10px;
+  }
+
+  a:hover{
+    background: #eee;
+
+  }
+
+  .logout{
+    position:absolute;
+    bottom: 0;
+  }
+
+  /* Main Section */
+
+  .main{
+    position: relative;
+    padding:20px ;
+    width: 100%;
+  }
+
+  .main-top{
+    display: flex;
+    width: 100%;
+    
+  }
+
+  /* .main-top{
+    margin-left: 100px;
+  } */
+  .main-top i{
+    position: absolute;
+    right: 0;
+    margin: 10px 30px;
+    color: rgb(11, 109, 109);
+    cursor: pointer;
+
+  }
+
+  .main-skills{
+    display:flex;
+    margin-top: 20Px;
+    /* margin-top: 94px; */
+
+}
+
+
+.main-skills .card{
+    width: 50%;
+    margin:10px;
+    background: #fff;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 20px 35px rgb(0, 0, 0 , 0.1);
+}
+
+.main-skills .card h3{
+    margin: 10px;
+    
+    text-transform: capitalize;
+}
+
+.main-skills .card p{
+  font-size: 15px;
+}
+
+.main-skills .card button{
+  background: orangered;
+  
+  padding: 7px ;
+  color: #fff;
+  border-radius: 10px;
+  margin-top: 15px;
+  m
+  /* margin-left: 130px; */
+  /* width: 30%; */
+
+}
+
+.main-skills .card button:hover{
+  background: rgb(223,70,15,0.856);
+}
+
+.main-skills .card i{
+  font-size: 22px;
+  padding: 10px;
+}
