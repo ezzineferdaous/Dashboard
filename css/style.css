@@ -1,0 +1,351 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+body{
+  background-color: #000;
+}
+
+/* seadbar */
+
+
+.sidebar{
+  width: 11%;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  cursor: pointer;
+
+}
+.aigram h1{
+  color: white;
+  font-size: 20px;
+  margin-left: 23px;
+  margin-top: 11px;
+  margin-bottom: 21px;
+}
+.sidebar .row3{ 
+   margin-top: 30px;
+  color: #cdcccc;
+  width: 85%;
+  font-size: 15px;
+  list-style: none;
+}
+
+.sidebar .row3 :hover {
+  background-color: #29292a;
+  border: 1px transparent;
+  border-radius: 5px;
+  box-shadow: 0 1px #29292a;
+  
+}
+.sidebar .row4 :hover {
+  background-color: #29292a;
+  border: 1px transparent;
+  border-radius: 5px;
+  box-shadow: 0 1px #29292a;
+  
+}
+
+
+
+#profile{
+  color: #fff;
+  font-weight: bold;
+  margin-top: 9px;
+
+}
+
+
+
+/* main*/
+
+.row3 .row0 .col{
+  display: inline-flex;
+  padding-block: 7px;
+
+}
+
+.row{
+  display: inline-flex;
+  margin-left: 511px;
+}
+
+svg{
+  color:#5a5a5a;
+  font-size: 10Px;
+  cursor: pointer;
+ 
+  width: 20Px;
+  margin-top: 5px;
+  margin-left: 20px; 
+}
+#col2 img{
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
+  margin-top: 15px;
+}
+
+
+.row{
+  display: inline-flex;
+}
+
+#name{
+
+  font-size: 15px;
+  color: white;
+}
+
+button{
+  
+  width: 90px;
+  margin-left: 10px;
+  color: white;
+  border: 1px  ;
+  padding: 5px;
+  margin-top: 9Px;
+  cursor: pointer;
+  background-color:#5a5a5a;
+  border-radius: 5px;
+  box-shadow: 0 1px #000000;
+}
+button:hover {
+  background-color: #828283
+}
+/* PARAMETER */
+#par svg {
+  margin-left: 9px;
+  margin-top: 11px;
+}
+
+.col3{
+  margin-top: 30Px;
+  margin-left: 80px;
+}
+
+/* DESCRIPTION PROFILE */
+.dec ul li{
+
+  font-size:small;
+  margin-left: 5px;
+  margin-right: 17px;
+  margin-top: 10px;
+  color: white;
+
+}
+
+.dec {
+ 
+  margin-top: 10px;
+}
+
+.dec li {
+  font-size: 1.4rem;
+  flex: 1;
+  margin: 0; 
+  display: inline-block;
+  list-style: none;
+}
+
+
+.ligne1 {
+  border-left: 2px solid #3f3c3c;
+  height: 968px;
+  margin-left: 154px;
+  position: fixed;
+
+}
+.ligne2 {
+  border-top: 3px solid #1C1B1F;
+  margin-top: 77px;
+  margin-left: 461px;
+  width: 61%;
+}
+
+
+
+
+/* profile */
+.row1 {
+  margin-left: -23px;
+  margin-top: 37PX;
+  
+}
+.row1 .col{
+  margin-left: 515px;
+}
+
+.row2{
+  display: flex;
+  color: white;
+  margin-left: 718px;
+  margin-bottom: 6px;
+  font-size: 13px;
+
+}
+.row3 .col{
+  color: white;
+
+}
+.row3{
+  display: grid;
+
+  margin-bottom: 501px;
+  font-size: 13px;
+
+}
+.row4{
+  margin-top: 123px;
+}
+.row3 .col p{
+  margin-left: 9px;
+  font-size: 13px;
+}
+#p{
+    color: white;
+    margin-top: 62px;
+    margin-left: 8px;
+
+}
+
+/* MINI PROFILE */
+.mini_profile{
+  
+  display:flex;/* alinier le code */
+    padding: 15px;
+    margin-bottom: 111px;
+}
+.mini_profile .cl img{
+  padding: 2px;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  margin-right: 3px;
+  border: 2px solid #fff;
+
+}
+
+.mini_profile .cl p{
+  margin-left: 6px;
+  margin-top: 10px;
+}
+
+.mini_profile .cl{
+  margin-left: 0px;
+}
+
+
+
+/* profile new */
+.new {
+  background-color: rgb(20 19 19)  ;
+  border: 1px solid rgb(29, 28, 28);
+  padding: 2px;
+  border-radius: 55%;
+  box-shadow: inset 0px 0px 0px 2px black; /* inset center shadow */
+  margin-right: 305px;
+  margin-top: 2px;
+  height: 51px;
+  width: 55px;
+}
+.new svg {
+  position: absolute;
+  top: 26%;
+  left: 467px;
+  width: 36px;
+  color: rgb(61, 61, 61);
+  transform: translate(50%, 66%);/* La translate propriété définit les coordonnées x et y  */
+  background-color: transparent;
+}
+
+
+
+
+
+#tag {
+  margin-top: 9px;
+  margin-right: 15px;
+  color: gray;  
+}
+
+#tag1 {
+  color: white;
+  margin-top: 9px;
+  margin-right: 15px;
+   
+}
+#svg{
+  color: white;
+
+}
+
+
+
+/* .grid */
+
+
+.grid-container {
+    margin-left: 457px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 400px; 
+}
+
+.grid-container > div {/* cible les éléments div enfants */
+  text-align: center;
+  padding: 2px;
+  font-size: 30px;
+  width: 270px; 
+  height: 270px; 
+}
+
+.grid-container img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover;
+}
+
+
+
+
+/* footer */
+footer p{
+  width: 66vw;
+  color: gray;
+  margin-left: 442px;
+
+}
+footer ul{
+  display: inline-flex;
+  list-style: none;
+  color: gray;
+  margin-left: 689px;
+  width: 30vw;
+  margin-top: 17px;
+  
+  
+  }
+footer li{
+color: #828283;
+}footer{
+  margin-bottom: 33px;
+    margin-top: 27px;
+}
+
+
+
+/* script */
+
+.row2 #border.active {
+  color: white;
+  border-top: 2px solid #ffffff;
+}
+
+.row2 #border{
+  display: inline-flex;
+}
+
